@@ -22,5 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "onCreate: hoo555ooo");
         
            Log.i(TAG, "onCreate: ho88oooo"); /* add gitub */
+        
+        /****************
+        
+           Log.i(TAG, "onCreate: 111111111"); /* add gitub */
     }
 }
