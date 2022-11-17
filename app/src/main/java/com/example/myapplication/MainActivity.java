@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.i(TAG, "onCreate: hooooo");
         Log.i(TAG, "onCreate: ho88oooo");
+        Toast.makeText(this, "dfsdfs", Toast.LENGTH_SHORT).show();
         Log.i(TAG, "onCreate: 666");
         Log.i(TAG, "onCreate: hoo555ooo");
     }
